@@ -1,12 +1,20 @@
 import "./result.css";
 
-import calcy from "../media/21.svg";
-import graphImg from "../media/result-anylt.png";
-import tableImg from "../media/result-anylt2.png";
-import star from "../media/25.svg";
-import piggy from "../media/22.svg";
+// Remove these import statements
+// import calcy from "../media/21.svg";
+// import graphImg from "../media/result-anylt.png";
+// import tableImg from "../media/result-anylt2.png";
+// import star from "../media/25.svg";
+// import piggy from "../media/22.svg";
 
 const ClientResults = () => {
+  // Define image paths directly
+  const calcy = "/media/21.svg";
+  const graphImg = "/media/result-anylt.png";
+  const tableImg = "/media/result-anylt2.png";
+  const star = "/media/25.svg";
+  const piggy = "/media/22.svg";
+
   return (
     <div className="client-results-container">
       <div className="gradient-bg1"></div>
